@@ -24,15 +24,15 @@ singlescrape.ps1:
 
 There are some variables that have to be filled before first run:
 
-  $ssid="" # Your Screenskraper user
-  $sspassword="" # Your Screenskraper pass
-  $devid="" # Your Screenskraper development user
-  $devpassword="" # Your Screenskraper development pass
-  $softname="" # The name of the software. This is not relevant
+  - $ssid="" # Your Screenskraper user
+  - $sspassword="" # Your Screenskraper pass
+  - $devid="" # Your Screenskraper development user
+  - $devpassword="" # Your Screenskraper development pass
+  - $softname="" # The name of the software. This is not relevant
   # --------------------------------------------
-  $roms_orig='' # Default roms source folder
-  $system='' # Default system to scrape
-  $regionorder=@("es","sp","eu","wor","us","en","uk","ame","ss","jp") # Desired order region for getting each game
+  - $roms_orig='' # Default roms source folder
+  - $system='' # Default system to scrape
+  - $regionorder=@("es","sp","eu","wor","us","en","uk","ame","ss","jp") # Desired order region for getting each game
   
   When finished it stores an XML with the scrapped system name containing all collection data, ready to be read by the second script.
   
