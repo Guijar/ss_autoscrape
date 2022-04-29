@@ -59,22 +59,22 @@ There are some variables that have to be filled before first run:
 
 - This is for bezel adjust, it depends on the downloaded bezel and must be checked after process finishes
 # -----------------------------------------------
-$bezelini+="[General]`r`n"
-$bezelini+="Bezel Screen Top Left X Coordinate=250`r`n"
-$bezelini+="Bezel Screen Top Left Y Coordinate=13`r`n"
-$bezelini+="Bezel Screen Bottom Right X Coordinate=1670`r`n"
-$bezelini+="Bezel Screen Bottom Right Y Coordinate=1070`r`n"
+- $bezelini+="[General]`r`n"
+- $bezelini+="Bezel Screen Top Left X Coordinate=250`r`n"
+- $bezelini+="Bezel Screen Top Left Y Coordinate=13`r`n"
+- $bezelini+="Bezel Screen Bottom Right X Coordinate=1670`r`n"
+- $bezelini+="Bezel Screen Bottom Right Y Coordinate=1070`r`n"
 # -----------------------------------------------
 
-$xmlfolder="" # Folder where the XML source collections are stored. Must be full path
-$RLpath="" # RocketLauncher folder. Must be full path
-$RLRAmodule=$RLpath+"\Modules"
-$regionorder=@("es","sp","eu","wor","us","en","uk","ame","ss","jp") # Desired order region for getting each game  
-$romdestfolder="" # Roms destination folder. Must be full path
-$mediapath="Y:\media" # Media destination folder (with AM structure). Must be full path
-$7zpath="..\..\7z\7z.exe" # Location of 7z executable. Could be relative path
-$AMpath="Y:\Software\Attract Mode" # AttractMode path. Must be full path.
-$RLdefaultmodule="RetroArch" # Default module to show in the combo.
+- $xmlfolder="" # Folder where the XML source collections are stored. Must be full path
+- $RLpath="" # RocketLauncher folder. Must be full path
+- $RLRAmodule=$RLpath+"\Modules"
+- $regionorder=@("es","sp","eu","wor","us","en","uk","ame","ss","jp") # Desired order region for getting each game  
+- $romdestfolder="" # Roms destination folder. Must be full path
+- $mediapath="Y:\media" # Media destination folder (with AM structure). Must be full path
+- $7zpath="..\..\7z\7z.exe" # Location of 7z executable. Could be relative path
+- $AMpath="Y:\Software\Attract Mode" # AttractMode path. Must be full path.
+- $RLdefaultmodule="RetroArch" # Default module to show in the combo.
 
 Final thoughts:
 
